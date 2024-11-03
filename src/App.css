@@ -1,0 +1,424 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.App {
+  background-image: url(./Landing\ Page\ \(1\).png);
+  width: 100%;
+  height: 150vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 3%;
+  cursor: pointer;
+}
+.btn3{
+  display:flex;
+  justify-content:space-between;
+  width: 47%;
+  padding-right: 6%;
+}
+.h1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;}
+.btn3 p{
+  font-size:32px;;
+}
+.up{
+  display: flex;
+  justify-content: space-between;
+}
+.up1{
+  width: 68.3%;
+}
+.up2{
+    width: 30%;
+    position: relative;
+}
+
+.contenu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 5%;
+  height: 450px;
+}
+.contenu h1{
+  font-size: 65px;
+  margin: 0px;
+}
+.lesp p{
+  font-size: 23px;
+  margin: 0px;
+  font-weight: 700;
+}
+.contenu button{
+  width: 50%;
+  height: 80px;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0);
+  font-weight: bolder;
+}
+.btnCM h1 {
+  font-size: 27px;
+  font-weight: bolder;
+}
+.Footerrs{
+  height: 150px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.336);
+  display: flex;
+ justify-content: space-between;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.Footerrs p{
+  
+}
+.part1{
+  width: 13%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70%;
+}
+.part1 h1{
+  margin: 0px;
+
+}
+.part2{
+  display: flex;
+  justify-content: space-between;
+  width: 47%;
+}
+.part2a{
+  width: 60%;
+  text-align:start;
+}
+.part2a h2{
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+.part2a p {
+  margin-top: 0px;
+  font-weight: bold;
+}
+.part2b{
+  width: 25%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70%;
+  margin-right: 20px;
+}
+.part2b h1{
+  margin: 0px;
+
+}
+.part3{
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.part3 h2{
+  margin:0px;
+}
+.part3 p{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.trait{
+  width: 5px;
+  height: 100px;
+  background-color: white;
+  margin: 5px;
+  margin-right: 10px;
+}
+.btnconx {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.btnconx::after {
+  margin-right: 0px;
+
+}
+.divbtn{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+}
+.Connexion{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.formu{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+  position: fixed;
+  top: 270px;
+  right: -10px;
+}
+.nomUser , .passeWord {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 25px;
+  height: 100px;
+}
+.nomUser label{
+  font-size: x-large; 
+  font-weight: bold;
+}
+
+#username{
+  height: 55px;
+  border-radius: 16px;
+  border: none;
+  font-size:x-large;
+  font-weight: bolder;
+  color: black;
+  outline: none;
+  padding-left: 20px;
+  background-color: rgb(236, 236, 236);
+}
+.passeWord label{
+  font-size: x-large;
+  font-weight: bold;
+ 
+}
+
+#password{
+    height: 55px;
+    border-radius: 16px;
+    border: none;
+    font-size:x-large;
+    font-weight: bolder;
+    color: black;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgb(236, 236, 236);
+}
+span{
+  color: red;
+}
+.guidance--user-1 {
+  display: none;
+  width: 1em;
+  height: 1em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23000' d='M18.5 20.247V16S16 14.5 12 14.5S5.5 16 5.5 16v4.247M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12S17.799 22.5 12 22.5S1.5 17.799 1.5 12Zm10.426.5S8.5 10.68 8.5 8c0-1.933 1.569-3.5 3.504-3.5A3.495 3.495 0 0 1 15.5 8c0 2.68-3.426 4.5-3.426 4.5z'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+/* Style pour les écrans de la taille de l'iPhone 13 (390px de large) */
+@media (max-width: 500px) {
+  .App { 
+    margin-right: 0px;
+    background-size: cover; /* Ajuste la taille pour que l'image soit entièrement visible */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:80vw;
+  }
+  .up1{
+    width: 90%;
+  }
+  .up2{
+    width: 10%;
+  }
+  .Connexion{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 100%;
+  }
+  .navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 3%;
+    cursor: pointer;
+  }
+  .btn3{
+    display:flex;
+    justify-content:space-between;
+    width: 47%;
+    padding-right: 6%;
+  }
+  .h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;}
+  .h1 h1{
+    font-size: 12px;
+  }
+  .btn3 p{
+    font-size:8.5px;;
+  }
+
+  .contenu {
+    padding-left: 3%;
+    height: auto;
+    margin-top: 3em;
+  }
+
+  .contenu h1 {
+    font-size: 50px;
+  }
+
+  .contenu button {
+    width: 100%;
+    height: 60px;
+  }
+  .btnCM h1 {
+    font-size: 13px;
+    font-weight: bolder;
+  }
+  .divbtn{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  
+  }
+  
+  .lesp {
+    font-size: 12px;
+    margin-top: 3em ;
+  }
+  .lesp p{
+    font-size: 12px;
+    margin: 0px;
+    font-weight: 700;
+  }
+  .contenu button{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0);
+    font-weight: bolder;
+    margin-top: 3em;
+  }
+  .btnconx {
+    width: 100px;
+    height: 25px;
+    margin: auto;
+    font-size: 8px;
+    border: none;
+  }
+  .btnconx h1 {
+   display: none;
+  }
+  .guidance--user-1 {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23000' d='M18.5 20.247V16S16 14.5 12 14.5S5.5 16 5.5 16v4.247M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12S17.799 22.5 12 22.5S1.5 17.799 1.5 12Zm10.426.5S8.5 10.68 8.5 8c0-1.933 1.569-3.5 3.504-3.5A3.495 3.495 0 0 1 15.5 8c0 2.68-3.426 4.5-3.426 4.5z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    color: white;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+
+  .formu {
+    top: auto;
+    bottom: 20px;
+    right: 5%;
+    width: 58%;
+    height: 600px;
+  }
+
+  #username,
+  #password {
+    height: 45px;
+    font-size: large;
+  }
+
+  .Footerrs {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10%;
+  }
+
+  .part1 , .part2, .part3 {
+    
+    width: 100%;
+    text-align: center;
+  }
+  .part1 h1{
+    font-size: 12px;
+  }
+}
